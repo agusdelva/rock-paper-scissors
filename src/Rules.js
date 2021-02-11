@@ -54,11 +54,11 @@ const RulesStyled = styled.div`
             bottom:initial;
             transform:translateY(50%);
             padding: 2em;
-            z-index:2;
+            /* z-index:2; */
             box-sizing: border-box;
             h2{
-            align-self:flex-start;
             font-size:32px;
+            align-self:flex-start;
             margin:0 0 1.5em 0;
         }
     }
