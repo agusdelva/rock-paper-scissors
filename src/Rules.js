@@ -19,7 +19,7 @@ const RulesStyled = styled.div`
         margin-top: 2em;
         cursor: pointer;
     }
-    .rules-overlay {
+    .rules-modal {
         background:white;
         padding: 4em 0;
         position: fixed;
@@ -81,7 +81,7 @@ function Rules() {
                 (visible) && (
             <div className="rules-modal">
                 <h2>Rules</h2>
-                <img src="./images/image-rules.svg"/>
+                <img src="images/image-rules.svg"/>
                 <img className="close-button" onClick={handleToggleClick} src="./images/icon-close.svg" alt="close" />
             </div>
                 )
