@@ -4,10 +4,10 @@ import Button from './Button'
 
 const RulesStyled = styled.div`
     text-align: center;
-    &::before{
-            content: '';
+    &::before {
+            content:'';
             display: ${({visible}) => visible ? 'block' : 'none'};
-            position:absolute;
+            /* position:absolute; */
             z-index:2;
             left:0;
             right:0;
